@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="autor" content="Sandra Burriel"> <!--Indicar el autor-->
+  <title>Formulario</title>
+  <link rel="stylesheet" href="estilos.css">
+
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+</style>
+
+</head>
+ 
+
+<body>
+ 
+<form action="mailto:burriel.21@hotmail.es" method="post">
+
+<table class="dancing-script">
+ <tr>
+  <th colspan="2">Formulario de alta de usuario
+  </th>
+ </tr>
+
+  <tr> <!--Fila 1-->
+   <td colspan="2">Identificador de nuevo usuario: <input type="text" name="Identificador" value="usu_012345" readonly>
+   </td>
+  </tr>
+
+  <tr> <!--Fila 2-->
+   <td>Nombre:
+    <input type="text" title="Escriba su nombre" name="Nombre" size="25" tabindex="1">
+   </td>
+   <td>Apellidos:
+    <input type="text" title="Escriba sus apellidos" name="Apellidos" size="35" tabindex="2">
+   </td>
+  </tr>
+
+  <tr> <!--Fila 3-->
+   <td>Contraseña:
+    <input type="password" title="Cree una contraseña: Minimo 8 carácteres, debe contener 1 mayúscula y un carácter especial(*,-,_)" name="Contraseña" size="20" maxlength="15" tabindex="3">
+   </td>
+   <td>Confirmar contraseña:
+    <input type="password" title="Debe coincidir con la anterior" name="Contraseña2" size="20" maxlength="15" tabindex="4">
+   </td>
+  </tr>
+
+  <tr> <!--Fila 4-->
+   <td colspan="2">Email:
+    <input type="text" title="Introduzca su correo electrónico" name="Email" size="50" tabindex="5">
+   </td>
+  </tr>
+
+
+  <tr> <!--Fila 5-->
+   <td>Sexo:
+   </td>
+   <td><input type="radio" name="Sexo">Hombre
+    <input type="radio" name="Sexo" checked tabindex="6">Mujer 
+   </td>
+  </tr>
+
+   <tr> <!--Fila 6-->
+    <td>Aficiones:
+    </td>
+    <td>
+    <input type="checkbox" name="Aficiones1" checked tabindex="7"> Lectura
+    <input type="checkbox" name="Aficiones2"> Deporte
+    <input type="checkbox" name="Aficiones3"> Cine 
+    </td>
+   </tr>
+
+   <tr><!--Fila 7-->
+    <td>País:
+    </td>
+    <td><select name="Pais" size="1" tabindex="8">
+    <option value="España" selected>España</option>
+    <option value="Francia">Francia</option>
+    <option value="Portugal">Portugal</option>
+    </select>
+    </td>
+   </tr>
+
+
+   <tr><!--Fila 8-->
+    <td>Subir su foto:
+    </td>
+    <td><input type="file" tabindex="9">
+    </td>
+   </tr>
+
+   <tr> <!--Fila 9-->
+    <td>Agrega un comentario personal:
+    </td>
+    <td><textarea placeholder="Escriba aquí sus comentarios." cols="40" rows="5" tabindex="10"></textarea></td>
+   </tr>
+ 
+   <tr class="boton"> <!--Fila 10-->
+    <td><input type="reset" title="Clic si desea eliminar toda la información introducida" name="resetear" value="Resetear" tabindex="11"></td>
+    <td><input title="Clic si desea enviar la información" type="submit" name="enviar" value="Enviar" tabindex="12"></td>
+   </tr>
+
+</table>
+</form>
+
+</body>
+</html>

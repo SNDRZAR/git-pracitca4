@@ -1,0 +1,33 @@
+.dancing-script{
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24pt;
+}
+
+form {
+   background-color: lightpink;
+   padding: 20px;
+   width: 680px;
+   height: auto;
+   border-radius:10px;
+   font-size: 18pt;
+   
+}
+
+td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    border-style: dotted;
+    font-size: 18pt;
+}
+
+.boton {
+  text-align: center;
+}
+
+
+
+
+
+ 
