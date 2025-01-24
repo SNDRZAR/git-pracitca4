@@ -6,7 +6,7 @@
 }
 
 form {
-   background-color: lightpink;
+   background-color: lightcyan;
    padding: 20px;
    width: 680px;
    height: auto;
@@ -16,7 +16,7 @@ form {
 }
 
 td {
-    border: 1px solid white;
+    border: 1px solid lightcoral;
     border-collapse: collapse;
     border-style: dotted;
     font-size: 18pt;
